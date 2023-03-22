@@ -11,34 +11,30 @@ function Forecast({title}) {
   </div>
   <hr className="my-2" />
    
-   {/* bb should have lunch */}
-
-
-
     <div className="flex flex-row items-center justify-between text-white">
         <div className="flex flex-col items-center justify-center ">
             <p className="font-light text-sm "> 4:30 </p>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w12 my-1" alt="" />
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1" alt="" />
             <p className="font-medium">22</p>
         </div>
         <div className="flex flex-col items-center justify-center ">
             <p className="font-light text-sm "> 4:30 </p>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w12 my-1" alt="" />
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1" alt="" />
             <p className="font-medium">22</p>
         </div>
         <div className="flex flex-col items-center justify-center ">
             <p className="font-light text-sm "> 4:30 </p>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w12 my-1" alt="" />
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1" alt="" />
             <p className="font-medium">22</p>
         </div>
         <div className="flex flex-col items-center justify-center ">
             <p className="font-light text-sm "> 4:30 </p>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w12 my-1" alt="" />
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1" alt="" />
             <p className="font-medium">22</p>
         </div>
         <div className="flex flex-col items-center justify-center ">
             <p className="font-light text-sm "> 4:30 </p>
-            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w12 my-1" alt="" />
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" className="w-12 my-1" alt="" />
             <p className="font-medium">22</p>
         </div>
 
@@ -47,5 +43,6 @@ function Forecast({title}) {
   </div>
   );
 }
+
 
 export default Forecast;
